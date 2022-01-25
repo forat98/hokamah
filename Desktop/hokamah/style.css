@@ -1,0 +1,474 @@
+@font-face {
+    font-family: Jannat-Bold;
+    src: url(font/A.Jannat.LT.Bold_1.ttf);
+}
+
+@font-face {
+    font-family: Jannat-Regular;
+    src: url(font/A.Jannat.LT.Regular_1.ttf);
+}
+
+body {
+    font-family: Jannat-Bold, sans-serif;
+    background-color: #fff;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Home-imge .imge {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.Home-imge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section-content{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section-content .hokamah-logo{
+    max-width: 50%;
+    margin: 0 auto;
+}
+.hero-section-content h6{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+hr {
+    width: 70% !important;
+    height: 10px !important;
+    border-top: 10px solid hsl(175deg 44% 75%) !important
+}
+
+.home-div-1 {
+    display: inline-block;
+    color: #ffffff;
+    position: relative;
+    left: 54%;
+    bottom: 227px;
+    font-family: Jannat-Bold, sans-serif;
+}
+
+.line {
+    font-size: 1rem;
+    position: relative;
+}
+
+.line span {
+    padding-right: 10px;
+}
+
+.line:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 119px;
+    right: -2px;
+    height: 0.5em;
+    border-top: 3px solid rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.home-div-2 {
+    right: 16%;
+    bottom: 50%;
+    display: inline-block;
+    color: hsl(182deg 46% 12%);
+    position: relative;
+    font-family: Jannat-Bold, sans-serif;
+}
+
+.h2-text {
+
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration: underline solid rgb(86, 95, 138) 8px;
+
+}
+
+.h2-text-dark {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: hsl(230deg 23% 44%);
+    color: #ffffff;
+    background-color: #9292928c;
+    width: 100%;
+    text-align: center;
+    height: 96%;
+    top: -16px;
+    text-decoration-thickness: 8px;
+}
+
+.home-div-2 p {
+    white-space: break-spaces;
+}
+
+.list-nav {
+    list-style-type: none;
+}
+
+.list-nav li {
+    width: 16%;
+}
+
+.btn-primary {
+
+    border-radius: 0;
+    position: relative;
+    width: fit-content;
+    border: 1px solid rgb(255, 255, 255);
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.detales div p {
+    font-size: 9px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.detales div img {
+    width: 50%;
+}
+
+.register-club {
+    background-color: hsl(179deg 39% 69%);
+    padding: 25px;
+}
+
+.form-club label {
+    display: flex;
+    justify-content: end;
+}
+
+.form-control {
+    background: hsl(0deg 3% 90%);
+    border-radius: 15px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+
+}
+
+.btn-red {
+
+    background-color: transparent;
+    background-image: none;
+    border: 3px solid #dc3545;
+}
+
+.btn-blue {
+
+    background-color: transparent;
+    background-image: none;
+    border: 3px solid hsl(179deg 39% 69%);
+}
+
+
+.btn-blue-form{
+    background-color: #91cfceb3;
+    color: #fff;
+}
+.btn-blue-dark-form{
+    background-color: hsl(230deg 23% 44%);
+    color: #ffffff;
+}
+.div-footer {
+    background-image: url('img/Path 86.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.div-footer ul li img {
+    width: 20%;
+}
+
+
+
+.div-footer ul span {
+    border-left: 7px solid hsl(179deg 39% 69%);
+    padding: 2px;
+    position: relative;
+    right: 40px;
+    font-size: 21px;
+
+}
+
+.ingfo-srevise li {
+    padding: 5px;
+}
+
+.contact {
+    list-style-type: none;
+}
+
+.logoS::after {
+    color: hsl(179deg 39% 69%);
+    content: "الحوكمة ";
+}
+
+footer {
+    background-color: hsl(230deg 23% 44%);
+    color: #ffffff;
+}
+
+input {
+    text-align: end;
+}
+
+
+input#file {
+    display: inline-block;
+    width: 100%;
+    padding: 120px 0 0 0;
+    height: 100px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #e4e4e4;
+    border-radius: 20px;
+    background-size: 60px 60px;
+}
+
+.profile-list {
+    background-color: #80808021;
+}
+
+.profile-list ul {
+    padding: 0;
+
+}
+
+.profile-list li {
+    list-style-type: none;
+    padding: 11px;
+    border-bottom: 3px solid #9adfee;
+}
+
+.profile-list a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 30px
+}
+
+.profile-list a:hover {
+    color: rgb(112, 111, 111);
+}
+
+.profile-list li img {
+    width: 15px;
+}
+
+.btn-blue-presonal-file {
+    background-color: hsl(179deg 39% 69%);
+    background-image: none;
+    border: 3px solid hsl(179deg 39% 69%);
+    color: whitesmoke;
+}
+
+
+.user {
+    position: relative;
+    bottom: 89px;
+    right: 50px;
+}
+
+.personali-form label {
+    position: absolute;
+    right: -10%;
+}
+
+.section-title {
+    height: 160px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-title h2 {
+    font-size: 52px;
+    color: #292929;
+    position: relative;
+    margin: 0;
+    bottom: 30px;
+}
+
+.section-title h2:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    height: 8px;
+    width: 100%;
+    background-color: #545D87;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.social-media-list li {
+    margin: 0 4px;
+
+}
+
+.social-media-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+.social-media-list li a:hover {
+    background-color: #91cfce;
+    color: #fff;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header .logo {
+    color: #fff;
+    margin: 0;
+}
+.header .main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .main-menu li{
+    margin: 0 15px;
+}
+.header .main-menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 999999px;
+    transition: all 0.25s ease;
+}
+.header .main-menu a:hover{
+    background-color: #535D88;
+}
+.header .main-menu a.active{
+    background-color: #535D88;
+}
+
+.hero-section-content-2{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+}
+.hero-section-content-2 p{
+    color: #fff;
+    position: relative;
+    width: 33%;
+    margin: 4%;
+    text-align: end;
+
+}
+.card{
+    background-color: #f1f1f1;
+}
+.hero-section-content-2 .laptop-img{
+    width: 40%;
+    height: 50%;
+}
+.label-news{
+    background-color: #2e3b68;
+    border-radius: 15px;
+    color: #fff;
+    padding: 3px;
+    font-size: 9px;
+
+}
+.news-text h6{
+    text-align: right;
+    background-color: #b0dad9;
+    color: #fff;
+    padding: 14px;
+}
+.news-text span{
+    color: rgb(199, 199, 199);
+    font-size: 10px;
+    padding-left: 9px;
+}
+.search-btn{
+    background: #b0dad9;
+    color: #fff;
+}
+.search input{
+    border-radius: 0px;
+    background-color: rgb(235 235 235 / 66%);
+    border: none;
+
+}
+.search input::placeholder {
+    color: rgb(163, 163, 163) !important;
+    font-size: 10px;
+  
+  }
+@media only screen and (max-width: 576px) {
+    .user {
+        bottom: 40px;
+        right: 27px;
+    }
+
+    .user img {
+        width: 15%;
+
+    }
+
+    .h2-text {
+        top: -21px;
+        font-size: 21px;
+
+    }
+
+    .personali-form label {
+        position: absolute;
+        right: -40%;
+        font-size: 13px;
+    }
+}
