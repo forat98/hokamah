@@ -164,7 +164,7 @@ hr {
 .btn-red {
   background-color: transparent;
   background-image: none;
-  border: 3px solid #dc3545;
+  border: 3px solid #cb303b;
 }
 
 .btn-blue {
@@ -206,11 +206,18 @@ hr {
 .contact {
   list-style-type: none;
 }
+.logoS-title{
+    position: absolute;
+    left: 0;
+    font-size: 23px;
+    bottom: 0;
+}
 
 .logoS::after {
   color: hsl(179deg 39% 69%);
-  content: "الحوكمة ";
+  content: " الحوكمة ";
 }
+
 
 footer {
   background-color: hsl(230deg 23% 44%);
@@ -277,14 +284,46 @@ input#file {
     font-size: 12px;
     padding: 2px 20px;
 }
-.btn-red-custom {
-    background-color: #ca6060;
+.btn-dark-blue-custom {
+    background-color:  rgb(76, 84, 124);
     background-image: none;
-    border: 3px solid #ca6060;
+    border: 3px solid  rgb(76, 84, 124);
     color: #ffffff;
     border-radius: 10px;
     font-size: 12px;
     padding: 2px 20px;
+}
+.btn-red-custom {
+    background-color: #cb303b;
+    background-image: none;
+    border: 3px solid #cb303b;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 2px 20px;
+}
+
+
+.btn-blue-custom-card{
+    background-color: hsl(179deg 39% 69%);
+    background-image: none;
+    border: 3px solid hsl(179deg 39% 69%);
+    color: #ffffff;
+    border-radius: 10px;
+      
+        font-size: 10px;
+        padding: 1px 12px;
+  
+}
+.btn-red-custom-card{
+    background-color: #cb303b;
+    background-image: none;
+    border: 3px solid #cb303b;
+    color: #ffffff;
+    border-radius: 10px;
+        font-size: 10px;
+        padding: 1px 12px;
+ 
 }
 .user {
   position: relative;
@@ -501,11 +540,12 @@ ul,
 }
 
 .myUl-li {
-  width: 230px;
-  padding: 4px;
-  background: #efefef;
-  border-radius: 9px;
-  border: 2px solid #a8a8a8;
+    margin: 1px;
+    width: 230px;
+    padding: 4px;
+    background: #efefef;
+    border-radius: 9px;
+    border: 2px solid #a8a8a8;
 }
 #myUL label {
   float: right;
@@ -532,13 +572,74 @@ ul,
     height: 50px;
     border-radius: 50px;
  }
+ table  {
+    background-color: #f1f1f1; 
 
+}
+ table thead tr th{
+    width: 14% ;
+} 
+
+table thead tr th span{
+    border-left: 4px solid #b0dad9;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 12px;
+}
+.order{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px solid #e5e5e5;
+}
+.order div {
+    border-left: 4px solid #b0dad9;
+    position: relative;
+    right: 8px;
+    text-align: center;
+    padding: 2px;
+
+}
 @media only screen and (max-width: 576px) {
   .user {
     bottom: 40px;
     right: 27px;
   }
 
+  .hero-section-content h6 {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 6px;
+    margin-bottom: 6px;
+}
+.section-title h2 {
+    font-size: 24px;
+    color: #292929;
+    position: relative;
+    margin: 0;
+    bottom: 30px;
+}
+.hero-section-content-2 p {
+    color: #fff;
+
+    margin: 4%;
+    text-align: end;
+    font-size: 11px;
+}
+.header .main-menu a {
+    white-space: nowrap;
+    font-size: 7px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 4px;
+    border-radius: 999999px;
+    transition: all 0.25s ease;
+}
+.header .main-menu li {
+     margin: 0px
+
+}
   .user img {
     width: 15%;
   }
@@ -553,4 +654,45 @@ ul,
     right: -40%;
     font-size: 13px;
   }
+  .order div {
+    border-left: 4px solid #b0dad9;
+    position: relative;
+    text-align: center;
+    margin: 2px;
+   
+} .dictor-proparty {
+    text-align:initial
+  }
 }
+@media only screen and (min-width: 576px) {
+    .user {
+      bottom: 40px;
+      right: 27px;
+    }
+  
+    .user img {
+      width: 15%;
+    }
+  
+    .h2-text {
+      top: -21px;
+      font-size: 21px;
+    }
+  
+    .personali-form label {
+      position: absolute;
+      right: -40%;
+      font-size: 13px;
+    }
+    .order div {
+      border-left: 4px solid #b0dad9;
+      position: relative;
+      text-align: center;
+      margin: 2px;
+     
+  }
+  .dictor-proparty {
+    text-align:initial
+  }
+  }
+  
