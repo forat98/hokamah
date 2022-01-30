@@ -684,13 +684,26 @@ table thead tr th span{
       right: -40%;
       font-size: 13px;
     }
-    .order div {
+    /* .order div {
       border-left: 4px solid #b0dad9;
       position: relative;
       text-align: center;
       margin: 2px;
      
-  }
+  } */
+  .order div {
+
+    font-size: 7px;
+}
+
+.btn-red-custom-card {
+  font-size: 6px;
+  padding: 1px 5px;
+}
+.btn-blue-custom-card {
+  font-size: 6px;
+  padding: 1px 5px;
+}
   .dictor-proparty {
     text-align:initial
   }
